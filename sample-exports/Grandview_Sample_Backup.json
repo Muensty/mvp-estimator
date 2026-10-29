@@ -1,0 +1,201 @@
+{
+  "format": "mvp-estimate-sow-builder",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-29T17:40:25.122Z",
+  "projects": [
+    {
+      "id": "project-317d3b1e-c752-4fd3-abe6-afd00f22df9a",
+      "clientName": "Grandview",
+      "projectName": "Grandview Website Estimate",
+      "clientContact": "Sample Client Contact",
+      "mvpContact": "Ben Muenstermann",
+      "projectType": "custom-website",
+      "documentDate": "2026-10-29",
+      "documentVersion": "v1.0",
+      "overview": "Sample calculation fixture for a custom website engagement. This is test data and not proof of client approval.",
+      "objectives": "Plan, design, develop, and coordinate a responsive website engagement.",
+      "clientResponsibilities": "Client will provide timely access, source content, brand assets, consolidated feedback, milestone approvals, and final proofing.",
+      "assumptions": "Final page count, content volume, integrations, and functionality will be confirmed through discovery, the project brief, sitemap, and wireframes.",
+      "exclusions": "Unlisted integrations, data migration, ongoing SEO programs, third-party subscriptions, stock assets, and out-of-scope content services are excluded unless selected.",
+      "dependencies": "Timely delivery of required materials, access, consolidated feedback, and approvals.",
+      "timeline": "Relative timing will be confirmed after kickoff and receipt of required materials.",
+      "internalNotes": "",
+      "narrativeNeedsReview": false,
+      "ratesConfirmed": true,
+      "ratesCents": {
+        "design": 17500,
+        "development": 17500,
+        "project-management": 17500,
+        "other": 17500
+      },
+      "lines": [
+        {
+          "id": "line-6465b9a5-c62b-4c1f-a995-3c471875bdbf",
+          "phase": "UX and visual design",
+          "discipline": "design",
+          "description": "Wireframes and responsive visual design.",
+          "hours": 35,
+          "rateOverrideCents": null,
+          "optional": false,
+          "selected": true
+        },
+        {
+          "id": "line-5ac14d0b-90e3-4e27-9b3d-ec74c10c3400",
+          "phase": "Development and testing",
+          "discipline": "development",
+          "description": "Responsive development, testing, and launch support.",
+          "hours": 50,
+          "rateOverrideCents": null,
+          "optional": false,
+          "selected": true
+        },
+        {
+          "id": "line-5c37c82e-5530-4c7d-9c66-02939db71bef",
+          "phase": "Project management",
+          "discipline": "project-management",
+          "description": "Coordination, meetings, proofing, and approvals.",
+          "hours": 20,
+          "rateOverrideCents": null,
+          "optional": false,
+          "selected": true
+        },
+        {
+          "id": "line-1f706229-de25-483b-8ecb-3a7a97776a8b",
+          "phase": "Optional copywriting",
+          "discipline": "other",
+          "description": "Supplemental copywriting, only if selected.",
+          "hours": 10,
+          "rateOverrideCents": null,
+          "optional": true,
+          "selected": false
+        }
+      ],
+      "optionalServices": [
+        {
+          "id": "service-62919569-493a-4bc5-9f11-ce95d32fd3cc",
+          "name": "Managed website hosting",
+          "description": "Managed hosting, SSL, and backups only when specifically authorized.",
+          "selected": false,
+          "feeCents": 0,
+          "billingBasis": "annual"
+        },
+        {
+          "id": "service-0cc41b54-ae2f-42cb-bc30-15ab43f927e7",
+          "name": "CMS training",
+          "description": "Training beyond any explicitly included project allowance.",
+          "selected": false,
+          "feeCents": 0,
+          "billingBasis": "one-time"
+        },
+        {
+          "id": "service-2e8703da-687c-4f9f-925c-bd9e3ac314e2",
+          "name": "Copywriting",
+          "description": "Client-facing copywriting or content organization services.",
+          "selected": false,
+          "feeCents": 0,
+          "billingBasis": "one-time"
+        },
+        {
+          "id": "service-55c35361-0d95-4d1a-a30f-5faff4ca7b74",
+          "name": "SEO add-on",
+          "description": "Supplemental SEO strategy or ongoing program beyond foundational implementation.",
+          "selected": false,
+          "feeCents": 0,
+          "billingBasis": "monthly"
+        }
+      ],
+      "targetHours": 105,
+      "targetFeeCents": 1837500,
+      "terms": {
+        "pricingBasis": "estimated-hourly",
+        "paymentTerms": "Sample only — 50% advance with remaining authorized project charges due on receipt of invoice.",
+        "estimateWording": "Professional fees are estimates based on the hours and rates shown. Final charges will reflect actual work performed under the selected billing provisions; this estimate is not a fixed fee or an overall maximum.",
+        "changeProcess": "Work beyond the confirmed scope will be addressed through a written supplemental estimate or change order describing the revised scope, fees, and schedule effect before the additional work proceeds.",
+        "otherClauses": "",
+        "includedRevisionRounds": "Two consolidated rounds for wireframes and selected visual design deliverables.",
+        "additionalRoundsRateCents": null,
+        "varianceEnabled": false,
+        "variancePercent": 20,
+        "varianceDisciplines": [
+          "design",
+          "development"
+        ],
+        "varianceWording": "",
+        "paymentSchedule": [
+          {
+            "id": "payment-e8b15431-6c59-4f4d-b4ef-7c5f9396b337",
+            "label": "Project advance",
+            "percentage": 50
+          },
+          {
+            "id": "payment-48d8acaf-303e-43d2-98db-d188088dec54",
+            "label": "Remaining project fee",
+            "percentage": 50
+          }
+        ]
+      },
+      "practices": [
+        {
+          "label": "Desktop wireframes are included.",
+          "included": true,
+          "confirmed": true,
+          "source": {
+            "filename": "02_New_Harbor_Custom_Website_Estimate_011426.pdf",
+            "location": "SOW §C.2",
+            "status": "Project-specific estimate with blank acceptance lines."
+          },
+          "id": "practice-51c115b2-1470-4ed9-8bad-ec41edc2705e"
+        },
+        {
+          "label": "Separate secondary-page desktop and mobile designs are included.",
+          "included": true,
+          "confirmed": true,
+          "source": {
+            "filename": "02_New_Harbor_Custom_Website_Estimate_011426.pdf",
+            "location": "SOW §C.3",
+            "status": "Project-specific estimate with blank acceptance lines."
+          },
+          "id": "practice-5f2dd873-2e68-421a-b62a-d43c9e7e3fd7"
+        },
+        {
+          "label": "Content entry is limited to the stated hour allowance.",
+          "included": false,
+          "confirmed": true,
+          "source": {
+            "filename": "02_New_Harbor_Custom_Website_Estimate_011426.pdf",
+            "location": "SOW §C.4 and fee table",
+            "status": "Project-specific estimate with blank acceptance lines."
+          },
+          "id": "practice-247d1880-d63d-4db8-b822-9f5b6786d07f"
+        },
+        {
+          "label": "Hosting is included or required.",
+          "included": false,
+          "confirmed": true,
+          "source": {
+            "filename": "02_New_Harbor_Custom_Website_Estimate_011426.pdf",
+            "location": "Hosting section and fee table",
+            "status": "Project-specific estimate with blank acceptance lines."
+          },
+          "id": "practice-8707da7d-0084-4a69-8a31-471c0480df61"
+        },
+        {
+          "label": "CMS training is included.",
+          "included": false,
+          "confirmed": true,
+          "source": {
+            "filename": "02_New_Harbor_Custom_Website_Estimate_011426.pdf",
+            "location": "SOW §C.7 and Services §3",
+            "status": "Project-specific estimate with blank acceptance lines."
+          },
+          "id": "practice-557b8c79-f029-4731-a19b-8bf6beeeaf15"
+        }
+      ],
+      "internalReviewStatus": "needs-review",
+      "clientAcceptance": "not-sent",
+      "createdAt": "2026-10-29T17:40:24.986Z",
+      "updatedAt": "2026-10-29T17:40:24.986Z",
+      "snapshots": []
+    }
+  ]
+}
